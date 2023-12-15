@@ -6,6 +6,7 @@ import {
   BiLogoCss3,
   BiLogoSass,
 } from "react-icons/bi";
+import { Icone } from "../Icone";
 
 export const Home = () => {
   return (
@@ -25,25 +26,36 @@ export const Home = () => {
           JavaScript.
         </p>
       </div>
-      <div className="flex mx-auto text-cor2-0 gap-4 mt-4 text-5xl">
-        <abbr title="HTML5">
+      <div className="flex mx-auto text-white gap-4 mt-4 text-5xl">
+        <Icone>
+          <abbr title="HTML5"></abbr>
           <BiLogoHtml5 />
-        </abbr>
-        <abbr title="CSS3">
-          <BiLogoCss3 />
-        </abbr>
-        <abbr title="JavaScript">
-          <BiLogoJavascript />
-        </abbr>
-        <abbr title="React">
-          <BiLogoReact />
-        </abbr>
-        <abbr title="TailwindCss">
-          <BiLogoTailwindCss />
-        </abbr>
-        <abbr title="SASS">
-          <BiLogoSass />
-        </abbr>
+        </Icone>
+        <Icone>
+          <abbr title="CSS3">
+            <BiLogoCss3 />
+          </abbr>
+        </Icone>
+        <Icone>
+          <abbr title="JavaScript">
+            <BiLogoJavascript />
+          </abbr>
+        </Icone>
+        <Icone>
+          <abbr title="React">
+            <BiLogoReact />
+          </abbr>
+        </Icone>
+        <Icone>
+          <abbr title="TailwindCss">
+            <BiLogoTailwindCss />
+          </abbr>
+        </Icone>
+        <Icone>
+          <abbr title="SASS">
+            <BiLogoSass />
+          </abbr>
+        </Icone>
       </div>
     </section>
   );
