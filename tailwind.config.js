@@ -12,7 +12,7 @@ export default {
         cor3: ['#24A5F0'],
         cor4: ['#2BF0B9'],
         cor5: ['#2424F0'],
-      }
+      },
     },
   },
   plugins: [],
