@@ -39,31 +39,35 @@ export const Projetos = () => {
   return (
     <section
       id="projetos"
-      className="min-h-screen bg-zinc-800 flex flex-col justify-center items-center box-border"
+      className="min-h-screen bg-zinc-800 flex flex-col justify-center items-center box-border pb-4"
     >
       <h1 className="text-4xl font-semibold text-white mt-4">
         Venha conhecer meus <span className="text-cor3-0">projetos</span>!
       </h1>
       <div className="w-40 h-1 bg-cor2-0 m-8"></div>
-      <div className="grid grid-cols-3 gap-4 justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center">
           {itens.map((itens) => (
-            <div key={itens.id} className="bg-zinc-900 box-border w-72 h-96 rounded-lg p-1 text-white relative flex flex-col items-center">
+            <div key={itens.id} className="bg-zinc-900 box-border w-80 md:w-72 xl:w-72 h-96 rounded-lg p-1 text-white relative flex flex-col items-center">
                 <img 
                 src={itens.img} 
                 alt={itens.alt} className="w-full rounded-lg" />
-                <h3 className="text-center text-2xl">{itens.nome}</h3>
+                <h3 className="text-center text-2xl mt-2">{itens.nome}</h3>
                 <div className=" mt-2 w-12 h-1 bg-cor2-0 items-center"></div>
                 <p className="px-2 py-2 text-justify text-sm leading-5 tracking-wide">{itens.descricao}</p>
                 <div className="flex text-4xl text-cor3-0 absolute bottom-4 left-24 text-center gap-4">
                     <Icone>
-                        <a href={itens.deploy} target="_blank">
-                            <BiPaperPlane />
-                        </a>
+                        <abbr title="Deploy">
+                          <a href={itens.deploy} target="_blank">
+                              <BiPaperPlane />
+                          </a>
+                        </abbr>
                     </Icone>
                     <Icone>
-                        <a href={itens.repositorio} target="_blank">
-                            <BiLogoGithub />
-                        </a>
+                        <abbr title="Repositório">
+                          <a href={itens.repositorio} target="_blank">
+                              <BiLogoGithub />
+                          </a>
+                        </abbr>
                     </Icone>
                 </div>
             </div>
