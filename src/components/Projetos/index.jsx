@@ -54,7 +54,7 @@ export const Projetos = () => {
                 <h3 className="text-center text-2xl mt-2">{itens.nome}</h3>
                 <div className=" mt-2 w-12 h-1 bg-cor2-0 items-center"></div>
                 <p className="px-2 py-2 text-justify text-sm leading-5 tracking-wide">{itens.descricao}</p>
-                <div className="flex text-4xl text-cor3-0 absolute bottom-4 text-center gap-4">
+                <div className="flex text-4xl text-cor3-0 absolute bottom-2 text-center gap-4">
                     <Icone>
                         <abbr title="Deploy">
                           <a href={itens.deploy} target="_blank">
