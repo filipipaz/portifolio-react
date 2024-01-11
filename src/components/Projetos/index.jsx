@@ -47,7 +47,7 @@ export const Projetos = () => {
       <div className="w-40 h-1 bg-cor2-0 m-8"></div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center">
           {itens.map((itens) => (
-            <div key={itens.id} className="bg-zinc-900 box-border w-80 md:w-72 xl:w-72 h-96 rounded-lg p-1 text-white relative flex flex-col items-center">
+            <div key={itens.id} className="bg-zinc-900 box-border w-80 md:w-72 xl:w-72 h-hCard rounded-lg p-1 text-white relative flex flex-col items-center">
                 <img 
                 src={itens.img} 
                 alt={itens.alt} className="w-full rounded-lg" />

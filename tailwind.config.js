@@ -13,6 +13,9 @@ export default {
         cor4: ['#2BF0B9'],
         cor5: ['#2424F0'],
       },
+      height: {
+        hCard: '28rem',
+      }
     },
   },
   plugins: [],
