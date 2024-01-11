@@ -7,7 +7,7 @@ export const Projetos = () => {
     {
       nome: "TempoApp",
       id: "1",
-      img: "@/public/images/portfolio1.jpg",
+      img: "/images/portfolio1.jpg",
       alt: "Imagem do TempoApp.",
       repositorio: "https://github.com/filipipaz/TempoApp",
       deploy: "https://tempo-app-rho.vercel.app",
@@ -16,8 +16,8 @@ export const Projetos = () => {
     {
       nome: "Página de produto",
       id: "2",
-      img: "@/public/images/portfolio2.jpg",
-      alt: "",
+      img: "/images/portfolio2.jpg",
+      alt: "Imagem da Página de Produto",
       repositorio: "https://github.com/filipipaz/pagina-produto",
       deploy: "https://produto-sepia.vercel.app",
       descricao: "Desafio de responsividade proposto pelo FrontEnd Mentor. Foi realizado com HTML e CSS",
@@ -25,7 +25,7 @@ export const Projetos = () => {
     {
       nome: "Página de produto",
       id: "3",
-      img: "@/public/images/portfolio2.jpg",
+      img: "/images/portfolio2.jpg",
       alt: "",
       repositorio: "#",
       deploy: "#",
