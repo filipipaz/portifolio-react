@@ -7,7 +7,7 @@ export const Projetos = () => {
     {
       nome: "TempoApp",
       id: "1",
-      img: "../../public/images/portfolio1.jpg",
+      img: "/public/images/portfolio1.jpg",
       alt: "Imagem do TempoApp.",
       repositorio: "https://github.com/filipipaz/TempoApp",
       deploy: "https://tempo-app-rho.vercel.app",
@@ -16,7 +16,7 @@ export const Projetos = () => {
     {
       nome: "Página de produto",
       id: "2",
-      img: "../../public/images/portfolio2.jpg",
+      img: "/public/images/portfolio2.jpg",
       alt: "",
       repositorio: "https://github.com/filipipaz/pagina-produto",
       deploy: "https://produto-sepia.vercel.app",
@@ -25,7 +25,7 @@ export const Projetos = () => {
     {
       nome: "Página de produto",
       id: "3",
-      img: "../../public/images/portfolio2.jpg",
+      img: "/public/images/portfolio2.jpg",
       alt: "",
       repositorio: "#",
       deploy: "#",
@@ -41,7 +41,7 @@ export const Projetos = () => {
       id="projetos"
       className="min-h-screen bg-zinc-800 flex flex-col justify-center items-center box-border pb-4"
     >
-      <h1 className="text-4xl font-semibold text-white mt-4">
+      <h1 className="text-4xl font-semibold text-white mt-4 text-center">
         Venha conhecer meus <span className="text-cor3-0">projetos</span>!
       </h1>
       <div className="w-40 h-1 bg-cor2-0 m-8"></div>

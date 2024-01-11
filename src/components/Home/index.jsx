@@ -11,7 +11,7 @@ import { Icone } from "../Icone";
 export const Home = () => {
   return (
     <section className="bg-zinc-900 h-screen flex flex-col justify-center">
-      <div className="border-l-4 border-cor2-0 w-1/2 box-content mx-auto pl-2 text-white ">
+      <div className="border-l-4 border-cor2-0 w-3/4 lg:w-1/2 box-content mx-auto pl-2 text-white ">
         <h2 className="text-xl md:text-4xl font-semibold mb-2">
           Prazer! Meu nome é <span className="text-cor3-0">Filipi Paz</span>
         </h2>
