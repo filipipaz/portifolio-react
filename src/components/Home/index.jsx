@@ -15,7 +15,7 @@ export const Home = () => {
         <h2 className="text-xl md:text-4xl font-semibold mb-2">
           Prazer! Meu nome é <span className="text-cor3-0">Filipi Paz</span>
         </h2>
-        <h1 className="text-3xl font-black text-cor3-0">
+        <h1 className="text-3xl md:text-5xl font-black text-cor3-0">
           Desenvolvedor React<span className="text-white">.</span>
         </h1>
         <p className="mt-4 text-sm leading-5 tracking-wide text-justify">
