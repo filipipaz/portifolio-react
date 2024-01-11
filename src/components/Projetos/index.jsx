@@ -7,7 +7,7 @@ export const Projetos = () => {
     {
       nome: "TempoApp",
       id: "1",
-      img: "../../src/assets/images/portfolio1.jpg",
+      img: "../../public/images/portfolio1.jpg",
       alt: "Imagem do TempoApp.",
       repositorio: "https://github.com/filipipaz/TempoApp",
       deploy: "https://tempo-app-rho.vercel.app",
@@ -16,7 +16,7 @@ export const Projetos = () => {
     {
       nome: "Página de produto",
       id: "2",
-      img: "../../src/assets/images/portfolio2.jpg",
+      img: "../../public/images/portfolio2.jpg",
       alt: "",
       repositorio: "https://github.com/filipipaz/pagina-produto",
       deploy: "https://produto-sepia.vercel.app",
@@ -25,7 +25,7 @@ export const Projetos = () => {
     {
       nome: "Página de produto",
       id: "3",
-      img: "../../src/assets/images/portfolio2.jpg",
+      img: "../../public/images/portfolio2.jpg",
       alt: "",
       repositorio: "#",
       deploy: "#",
