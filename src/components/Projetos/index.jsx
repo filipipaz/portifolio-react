@@ -41,7 +41,7 @@ export const Projetos = () => {
       id="projetos"
       className="min-h-screen bg-zinc-800 flex flex-col justify-center items-center box-border pb-4"
     >
-      <h1 className="text-4xl font-semibold text-white mt-4 text-center">
+      <h1 className="text-4xl font-semibold text-white mt-4 pt-8 text-center">
         Venha conhecer meus <span className="text-cor3-0">projetos</span>!
       </h1>
       <div className="w-40 h-1 bg-cor2-0 m-8"></div>
@@ -53,7 +53,7 @@ export const Projetos = () => {
                 alt={itens.alt} className="w-full rounded-lg" />
                 <h3 className="text-center text-2xl mt-2">{itens.nome}</h3>
                 <div className=" mt-2 w-12 h-1 bg-cor2-0 items-center"></div>
-                <p className="px-2 py-2 text-justify text-sm leading-5 tracking-wide">{itens.descricao}</p>
+                <p className="px-2 py-2 text-justify text-sm leading-5 tracking-wide indent-2">{itens.descricao}</p>
                 <div className="flex text-4xl text-cor3-0 absolute bottom-2 text-center gap-4">
                     <Icone>
                         <abbr title="Deploy">
