@@ -41,7 +41,7 @@ export const Projetos = () => {
       id="projetos"
       className="min-h-screen bg-zinc-800 flex flex-col justify-center items-center box-border pb-4"
     >
-      <h1 className="text-4xl font-semibold text-white mt-4 pt-8 text-center">
+      <h1 className="text-4xl font-semibold text-white mt-6 pt-8 text-center">
         Venha conhecer meus <span className="text-cor3-0">projetos</span>!
       </h1>
       <div className="w-40 h-1 bg-cor2-0 m-8"></div>
