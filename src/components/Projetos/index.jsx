@@ -22,15 +22,7 @@ export const Projetos = () => {
       deploy: "https://produto-sepia.vercel.app",
       descricao: "Desafio de responsividade proposto pelo FrontEnd Mentor. Foi realizado com HTML e CSS",
     },
-    {
-      nome: "Página de produto",
-      id: "3",
-      img: "/images/portfolio2.jpg",
-      alt: "",
-      repositorio: "#",
-      deploy: "#",
-      descricao: "Desafio de responsividade proposto pelo FrontEnd Mentor. Foi realizado com HTML e CSS",
-    },
+  
     
     
     
