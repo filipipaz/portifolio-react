@@ -14,15 +14,23 @@ export const Projetos = () => {
       descricao: "Projeto realizado em HTML,CSS e JavaScript. O foco é praticar o consumo de API. Foi utilizado a WeatherAPI da OpenWeather.",
     },
     {
-      nome: "Página de produto",
+      nome: "Aluroni",
       id: "2",
       img: "/images/portfolio2.jpg",
+      alt: "Imagem da pagina Aluroni",
+      repositorio: "https://github.com/filipipaz/aluroni",
+      deploy: "https://aluroni-khaki-sigma.vercel.app/",
+      descricao: "Projeto realizado com React e TypeScript durante o curso da Alura, simulando a pagina de um restaurante.",
+    },{
+      nome: "Página de produto",
+      id: "3",
+      img: "/images/portfolio3.jpg",
       alt: "Imagem da Página de Produto",
       repositorio: "https://github.com/filipipaz/pagina-produto",
       deploy: "https://produto-sepia.vercel.app",
       descricao: "Desafio de responsividade proposto pelo FrontEnd Mentor. Foi realizado com HTML e CSS",
-    },
-  
+    }
+    
     
     
     
